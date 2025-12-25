@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    background-color: lightcoral;
+    padding: 10px;
+    
+    
+
+}
+.container{
+    padding: 10px;
+    display: flex;
+}
+.bookcontainer{
+    background-color: black;
+    color: white;
+    width: 25%; 
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+    margin: 30px;
+    
+}
+.bookcontainer h3{
+    color: lightcoral;
+}
+.bookcontainer button{
+    background-color: lightcoral;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    
+}
+.addbtn{
+    background-color: lightcoral;
+    color: black;
+    border-radius: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+
+
+
+}
+.popupbox{
+    background-color: lightcoral;
+    border-radius: 10px;
+    width: 40%;
+    height: 30%;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    display: none;
+
+    
+}
+#bookinput{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    
+}
+#bookinput::placeholder{
+    color: black;
+    
+}
+#authorinput{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+#authorinput::placeholder{
+    color: black;
+}
+#desinput{
+    border: 2px solid black;
+    background: transparent;
+}
+#desinput::placeholder{
+    color: black;
+}
+.addip{
+    color: lightcoral;
+    background-color: black;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+#cancel{
+    color: lightcoral;
+    background-color: black;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
